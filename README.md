@@ -5,6 +5,7 @@ Apenas um repositório baseado nas aulas de Kubernetes: https://github.com/AClou
 Para usar:
 
 kubectl apply -f web-deploy.yml
+
 kubectl apply -f web-nodeport.yml
 
 Faça os ajustes necessários e veja os ips ao acessar no navegador.
