@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kagebushin-k8s
+  labels:
+    customer: k8s
+spec:
+  selector:
+    matchLabels:
+      app: apache
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: apache
+    spec:
+      containers:
+      - image: adilsond/kagebushin:latest
+        name: kagebushin-web
+        ports:
+        - containerPort: 80

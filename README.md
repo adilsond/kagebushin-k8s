@@ -8,4 +8,4 @@ kubectl apply -f web-deploy.yml
 
 kubectl apply -f web-nodeport.yml
 
-Faça os ajustes necessários e veja os ips ao acessar no navegador.
+Faça os ajustes necessários e veja os ips ao acessar no navegador na porta 30001.
