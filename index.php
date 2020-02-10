@@ -4,6 +4,6 @@
 
 <p>
 
-<h1>Ol&aacute;! Eu sou pod <?php echo $_SERVER['SERVER_ADDR']; ?></h1></p>
+<h1>Ol&aacute;! Eu sou o pod <?php echo $_SERVER['SERVER_ADDR']; ?> a sua disposi&ccedil;&atilde;o.</h1></p>
 
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
