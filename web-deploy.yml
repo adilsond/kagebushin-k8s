@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kagebushin-k8s
+  name: debphpinfo-k8s
   labels:
     customer: k8s
 spec:
@@ -17,7 +17,7 @@ spec:
         app: apache
     spec:
       containers:
-      - image: adilsond/kagebushin:latest
-        name: kagebushin-web
+      - image: adilsond/debphpinfo:latest
+        name: debphpinfo-web
         ports:
         - containerPort: 80
