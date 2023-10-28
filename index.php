@@ -6,6 +6,26 @@
 
 <h1>Ol&aacute;! Eu sou o pod <?php echo $_SERVER['SERVER_ADDR']; ?> &agrave; disposi&ccedil;&atilde;o.</h1></p>
 
+<p> Host do pod: <?php
+$hostname = gethostname();
+echo $hostname;
+?>
+</p>
+
+<p>
+<?php
+
+$filename = '/tmp/nodename.txt';
+
+if (file_exists($filename)) {
+    $content = file_get_contents($filename);
+    if ($content !== false) {
+        echo "Eu estou no n&oacute; $content";
+    } 
+}
+?>
+</p>
+
 <p><?php
 
 function exibirIP() {
@@ -17,14 +37,7 @@ function exibirIP() {
 exibirIP();
  ?></p>
 
-<p> Host do pod: <?php
-$hostname = gethostname();
-echo $hostname;
-?>
-</p>
 
 <p>Data: <?php echo date("D M j, Y,  G:i:s T "); ?></p>
 
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
-
-
