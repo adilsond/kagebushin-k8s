@@ -21,3 +21,8 @@ spec:
         name: kagebushin-web
         ports:
         - containerPort: 80
+        env:
+        - name: NODE_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
