@@ -37,6 +37,7 @@ function exibirIP() {
 exibirIP();
  ?></p>
 
+<p>Navegador: <?php echo $_SERVER['HTTP_USER_AGENT']; ?></p>
 
 <p>Data: <?php echo date("D M j, Y,  G:i:s T "); ?></p>
 
