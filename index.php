@@ -42,3 +42,7 @@ exibirIP();
 <p>Data: <?php echo date("D M j, Y,  G:i:s T "); ?></p>
 
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
+
+<h1>Debug Mode</h1>
+
+<p>Esta imagem cont&eacute;m pacotes para testes de rede dentro do pod.</p>
