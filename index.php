@@ -30,7 +30,7 @@ if (file_exists($filename)) {
 
 function exibirIP() {
     if(isset($_SERVER['HTTP_X_REAL_IP']) && $_SERVER['HTTP_X_REAL_IP'] !== null) {
-        echo "Voc&ecirc; &eacute; " . $_SERVER['HTTP_X_REAL_IP'];
+        echo "Voc&ecirc; &eacute; " . $_SERVER['HTTP_X_REAL_IP'] . "  (" . gethostbyaddr($_SERVER['HTTP_X_REAL_IP']) . ")";
     }
 }
 
