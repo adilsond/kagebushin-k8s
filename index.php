@@ -44,4 +44,4 @@ exibirIP();
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
 
 
-<p>Versão Alpine Linux</p>
+<p>Vers&atilde;o Alpine Linux</p>
