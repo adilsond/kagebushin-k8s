@@ -43,4 +43,4 @@ exibirIP();
 
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
 
-<p>Vers&aacute;o Debian</p>
+<p>Vers&atilde;o Debian</p>
