@@ -42,3 +42,5 @@ exibirIP();
 <p>Data: <?php echo date("D M j, Y,  G:i:s T "); ?></p>
 
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
+
+<p>Vers&aacute;o Debian</p>
