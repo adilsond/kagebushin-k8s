@@ -15,7 +15,7 @@ echo $hostname;
 <p>
 <?php
 
-$filename = '/tmp/nodename.txt';
+$filename = '/htdocs/nodename.txt';
 
 if (file_exists($filename)) {
     $content = file_get_contents($filename);
@@ -42,3 +42,6 @@ exibirIP();
 <p>Data: <?php echo date("D M j, Y,  G:i:s T "); ?></p>
 
 <p>D&uacute;vidas: <a href='mailto:adilson@adilson.net.br'>adilson@adilson.net.br</a></p>
+
+
+<p>Versão Alpine Linux</p>
