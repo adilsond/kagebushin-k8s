@@ -10,26 +10,26 @@ RUN apk --no-cache --update \
     add apache2 \
     apache2-ssl \
     curl \
-    php84-apache2 \
-    php84-bcmath \
-    php84-bz2 \
-    php84-calendar \
-    php84-common \
-    php84-ctype \
-    php84-curl \
-    php84-dom \
-    php84-gd \
-    php84-iconv \
-    php84-mbstring \
-    php84-mysqli \
-    php84-mysqlnd \
-    php84-openssl \
-    php84-pdo_mysql \
-    php84-pdo_pgsql \
-    php84-pdo_sqlite \
-    php84-phar \
-    php84-session \
-    php84-xml \
+    php86-apache2 \
+    php86-bcmath \
+    php86-bz2 \
+    php86-calendar \
+    php86-common \
+    php86-ctype \
+    php86-curl \
+    php86-dom \
+    php86-gd \
+    php86-iconv \
+    php86-mbstring \
+    php86-mysqli \
+    php86-mysqlnd \
+    php86-openssl \
+    php86-pdo_mysql \
+    php86-pdo_pgsql \
+    php86-pdo_sqlite \
+    php86-phar \
+    php86-session \
+    php86-xml \
     && mkdir /htdocs
 
 
